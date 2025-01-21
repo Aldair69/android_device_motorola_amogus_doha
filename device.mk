@@ -35,4 +35,9 @@ TARGET_USES_DYNAMIC_PARTITIONS := false
 PRODUCT_COPY_FILES += \
     device/motorola/amogus_doha/props/build_doha.prop:$(TARGET_COPY_OUT_VENDOR)/build_doha.prop
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DeviceName=doha \
+    BuildDesc="doha_retail-user 10 QPIS30.28-Q3-28-26-4-1-3 f0a9a release-keys" \
+    BuildFingerprint=motorola/doha_retail/doha:10/QPIS30.28-Q3-28-26-4-1-3/f0a9a:user/release-keys
+
 $(call inherit-product-if-exists, vendor/motorola/amogus_doha/amogus_doha-vendor.mk)
