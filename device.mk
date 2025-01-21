@@ -14,7 +14,7 @@
 
 TARGET_IS_AMOGUS_DOHA := true
 TARGET_IS_AMOGUS := true
-
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 $(call inherit-product, device/motorola/amogus/device.mk)
 
 # Device path
