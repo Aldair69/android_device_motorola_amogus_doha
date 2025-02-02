@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
 # Partitions
 TARGET_USES_DYNAMIC_PARTITIONS := false
 
+# NFC
+TARGET_USES_NXP_NFC := true
+
 # Props
 PRODUCT_COPY_FILES += \
     device/motorola/amogus_doha/props/build_doha.prop:$(TARGET_COPY_OUT_VENDOR)/build_doha.prop
