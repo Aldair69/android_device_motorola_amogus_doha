@@ -15,3 +15,6 @@ ro.product.bevice=doha
 
 # Density
 ro.sf.lcd_density=380
+
+# Wfd
+persist.debug.wfd.enable=1
