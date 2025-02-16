@@ -22,6 +22,7 @@ DEVICE_PATH := device/motorola/amogus_doha/rootdir
 
 # Fingerprint
 TARGET_USES_EGISTEC_FINGERPRINT := true
+TARGET_USES_FINGERPRINT_V2_1 := true
 
 # Overlays
 PRODUCT_PACKAGES += \
